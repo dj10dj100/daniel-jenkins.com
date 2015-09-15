@@ -1,0 +1,344 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"guardn",
+				"guardianID"
+			],
+			[
+				"file_",
+				"file_get_contents"
+			],
+			[
+				"out",
+				"output_file_name"
+			],
+			[
+				"tet",
+				"text-align"
+			],
+			[
+				"create",
+				"createWeatherSlider"
+			],
+			[
+				"get",
+				"getWeather"
+			],
+			[
+				"sync",
+				"syncheights"
+			],
+			[
+				"syn",
+				"syncHeights"
+			],
+			[
+				"window",
+				"windowPosition"
+			],
+			[
+				"bower",
+				"bower_components"
+			],
+			[
+				"sas",
+				"sassPath"
+			],
+			[
+				"s",
+				"sync"
+			],
+			[
+				"pod_2_",
+				"pod_2_url"
+			],
+			[
+				"Send",
+				"SendApi"
+			],
+			[
+				"email",
+				"emailError"
+			],
+			[
+				"ngMode",
+				"ngModelController"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 81.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2deb499853c4371624f5a07e27c334aa' + 'bf8c4e67d14fb0525ba4f89698a6d7e1'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Daniel/Documents/sites/www.daniel-jenkins.com"
+	],
+	"file_history":
+	[
+		"/C/Users/Daniel/Documents/sites/jack_eyers/.gitignore",
+		"/C/Users/Daniel/Documents/sites/jack-eyers/gulpfile.js",
+		"/C/Users/Daniel/Documents/sites/jack-eyers/package.json",
+		"/C/Users/Daniel/Documents/sites/jack-eyers/scss/_header.scss",
+		"/C/Users/Daniel/Documents/sites/jack-eyers/scss/_buttons.scss",
+		"/C/Users/Daniel/Documents/sites/jack-eyers/scss/_footer.scss",
+		"/C/Users/Daniel/Documents/sites/jack-eyers/scss/styles.scss",
+		"/C/Users/Daniel/Documents/sites/jack-eyers/scss/_variables.scss",
+		"/C/Users/Daniel/Documents/sites/jack-eyers/scss/_fonts.scss",
+		"/C/Users/Daniel/Documents/sites/jack-eyers/css/styles.css",
+		"/C/Users/Daniel/Documents/sites/jack-eyers/scss/_forms.scss",
+		"/C/Users/Daniel/Documents/sites/RNLI-Swim-Safe/sites/default/settings.php",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/C/Users/Daniel/Documents/sites/RNLI-Swim-Safe/sites/default/civicrm.settings.php",
+		"/C/Users/Daniel/Downloads/BrightBlueDay_RNLI_PubKey.asc",
+		"/C/Users/Daniel/Documents/sites/RNLI-Swim-Safe/sites/all/themes/SwimSafe/template.php",
+		"/C/Users/Daniel/Documents/sites/RNLI-Swim-Safe/sites/all/modules/bbd/bbd.module",
+		"/C/Users/Daniel/Documents/sites/RNLI-Swim-Safe/sites/all/modules/bbd/charisma.inc",
+		"/C/Users/Daniel/Documents/sites/RNLI-Swim-Safe/sites/all/modules/bbd/bbd.info",
+		"/C/Users/Daniel/Documents/sites/__DATABASE/RNLI/database_dump.sql",
+		"/C/Users/Daniel/Documents/sites/RNLI-Swim-Safe/sites/all/themes/SwimSafe/templates/views-view--front-page.tpl.php",
+		"/C/Users/Daniel/Downloads/BrightBlueDay_RNLI_PubKey (1).asc",
+		"/C/Users/Daniel/Documents/sites/RNLI-Swim-Safe/sites/default/civicrm.settings.staging.php",
+		"/C/xampp/apache/conf/extra/httpd-vhosts.conf",
+		"/C/Users/Daniel/AppData/Local/Temp/fz3temp-1/app.js",
+		"/C/Users/Daniel/AppData/Local/Temp/fz3temp-1/swimsafe.info",
+		"/C/Users/Daniel/AppData/Local/Temp/fz3temp-1/settings.php",
+		"/C/Users/Daniel/Documents/sites/formula-e-new/scss/formula-e/_header.scss",
+		"/C/Users/Daniel/Documents/sites/formula-e-new/scss/formula-e/_variables.scss",
+		"/C/Users/Daniel/Documents/sites/formula-e-new/scss/formula-e/formula-e.scss",
+		"/C/Users/Daniel/Downloads/slides/demo/demo.html",
+		"/C/Users/Daniel/Documents/sites/formula-e-new/js/app.js",
+		"/C/Users/Daniel/Documents/sites/formula-e-new/scss/formula-e/_main-content.scss",
+		"/C/Users/Daniel/Documents/sites/formula-e-new/gulpfile.js",
+		"/C/Users/Daniel/Documents/sites/formula-e-new/js/min/app.min.js",
+		"/C/Users/Daniel/Documents/sites/formula-e-new/index.html",
+		"/C/Users/Daniel/Documents/sites/formula-e/js/app.js",
+		"/C/Users/Daniel/Documents/sites/formula-e-new/scss/formula-e/_fonts.scss",
+		"/C/Users/Daniel/Documents/sites/formula-e-new/scss/formula-e/_buttons.scss",
+		"/C/Users/Daniel/Downloads/arrow487.svg",
+		"/C/Users/Daniel/AppData/Local/Temp/Temp1_jquery-fadethis-master.zip/jquery-fadethis-master/dist/jquery.fadethis.min.js",
+		"/C/Users/Daniel/Documents/sites/formula-e-new/scss/formula-e/_plugins.scss",
+		"/C/Users/Daniel/AppData/Local/Temp/Temp1_monkeecreate-jquery.simpleWeather-3.0.2-0-ged11490.zip/monkeecreate-jquery.simpleWeather-ed11490/jquery.simpleWeather.min.js",
+		"/C/Users/Daniel/Documents/sites/formula-e-new/scss/formula-e/_animations.scss",
+		"/C/Users/Daniel/Downloads/slides/demo/demo.css",
+		"/C/Users/Daniel/Downloads/1431899519_down4.svg",
+		"/C/Users/Daniel/Documents/sites/formula-e-new/css/formula-e.css",
+		"/C/Users/Daniel/Documents/sites/formula-e-new/js/plugins.js",
+		"/C/Users/Daniel/Documents/sites/formula-e-new/css/formula-e/formula-e.css",
+		"/C/Users/Daniel/Documents/sites/formula-e-new/scss/formula-e/_flags.scss",
+		"/C/Users/Daniel/Documents/sites/formula-e/package.json",
+		"/C/Users/Daniel/Documents/sites/formula-e/Gruntfile.js",
+		"/C/Users/Daniel/Documents/sites/formula-e/gulpfile.js",
+		"/C/Users/Daniel/Documents/sites/formula-e/css/formula-e.css",
+		"/C/Users/Daniel/Documents/sites/formula-e/scss/formula-e/formula-e.scss",
+		"/C/Users/Daniel/Documents/sites/formula-e/index.html",
+		"/C/Users/Daniel/Documents/sites/formula-e/scss/formula-e/_variables.scss",
+		"/C/Users/Daniel/Documents/sites/formula-e/scss/formula-e/_main-content.scss",
+		"/C/Users/Daniel/Documents/sites/formula-e/scss/formula-e/_header.scss",
+		"/C/Users/Daniel/Documents/sites/formula-e/scss/formula-e/_buttons.scss",
+		"/C/Users/Daniel/Documents/sites/formula-e/scss/formula-e/_flags.scss",
+		"/C/Users/Daniel/Documents/sites/formula-e/css/styles.css",
+		"/C/Users/Daniel/Documents/sites/formula-e/js/min/app.min.js",
+		"/C/Users/Daniel/Documents/sites/pru-decision-tree/Gruntfile.js",
+		"/C/Users/Daniel/Documents/sites/pru-decision-tree/package.json",
+		"/C/Users/Daniel/Documents/sites/pru-decision-tree/.htaccess",
+		"/C/Users/Daniel/Documents/sites/pru-decision-tree/.env",
+		"/C/Users/Daniel/Documents/sites/zurich-rewards/app/Http/Controllers/CategoryAdminController.php",
+		"/C/Users/Daniel/Documents/sites/zurich-rewards/app/Models/footer.php",
+		"/C/Users/Daniel/Documents/sites/zurich-rewards/.env",
+		"/C/Users/Daniel/Documents/sites/zurich-rewards/app/Http/routes.php",
+		"/C/Users/Daniel/Documents/sites/zurich-rewards/resources/views/dashboard/category/edit.blade.php",
+		"/C/Users/Daniel/Documents/sites/zurich-rewards/resources/views/dashboard/category/includes/banner_edit.blade.php",
+		"/C/Users/Daniel/Documents/sites/zurich-rewards/resources/views/dashboard/category/includes/footer_edit.blade.php",
+		"/C/Users/Daniel/Documents/sites/zurich-rewards/public/frontend/scss/zurich-rewards/zurich-rewards.scss",
+		"/C/Users/Daniel/Documents/sites/zurich-rewards/resources/views/frontend/includes/pods.blade.php",
+		"/C/Users/Daniel/Documents/sites/zurich-rewards/resources/views/dashboard/category/new.blade.php",
+		"/C/Users/Daniel/Documents/sites/pru-decision-tree/storage/logs/laravel-2015-03-07.log",
+		"/C/Users/Daniel/Documents/sites/pru-decision-tree/app/Http/routes.php",
+		"/C/Users/Daniel/Documents/sites/pru-decision-tree/composer.json",
+		"/C/Users/Daniel/Documents/sites/pru-decision-tree/public/js/global.js",
+		"/C/Users/Daniel/Documents/sites/pru-decision-tree/resources/views/mails/welcome.blade.php",
+		"/C/Users/Daniel/Documents/sites/pru-decision-tree/app/Http/Controllers/Api.php",
+		"/C/Users/Daniel/Documents/sites/pru-decision-tree/resources/views/includes/summary.blade.php",
+		"/C/Users/Daniel/Documents/sites/pru-decision-tree/app/Models/Helpers.php",
+		"/C/Users/Daniel/Documents/sites/pru-decision-tree/resources/views/includes/footer.blade.php",
+		"/C/Users/Daniel/Documents/sites/pru-decision-tree/app/Http/Controllers/MailController.php",
+		"/C/Users/Daniel/Documents/sites/pru-decision-tree/composer.lock",
+		"/C/Users/Daniel/Documents/sites/ss15/public/assets/js/app.js",
+		"/C/Users/Daniel/Documents/sites/lar-cms/database/seeds/DatabaseSeeder.php",
+		"/C/Users/Daniel/Documents/sites/lar-cms/.env",
+		"/C/Users/Daniel/Documents/sites/lar-cms/app/Http/routes.php",
+		"/C/Users/Daniel/Documents/sites/lar-cms/app/Http/Controllers/HomeController.php",
+		"/C/Users/Daniel/Documents/sites/lar-cms/app/Http/Controllers/AdminController.php",
+		"/C/Users/Daniel/Documents/sites/GA/js/scripts.js",
+		"/C/Users/Daniel/Documents/sites/lar-cms/index.php",
+		"/C/xampp/apache/conf/httpd.conf",
+		"/C/Users/Daniel/Documents/sites/GA/index.html"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"C:\\Users\\Daniel\\Documents\\sites\\formula-e\\scss\\formula-e",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"plakkaat",
+			"echo",
+			"return",
+			"-",
+			"55px",
+			"../",
+			" ",
+			"']);\n",
+			" "
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"_",
+			"../../../",
+			"../../"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "daniel-jenkins.com",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 287.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

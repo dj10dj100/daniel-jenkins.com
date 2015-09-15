@@ -1,0 +1,63 @@
+// Put Bootstrap override variables here, and any custom variables required.
+$purple : #223688;
+$blue : #009dd8;
+$white : #fff;
+$black : #000;
+$yellow : #fedb31;
+$orange : #e94e1b;
+$babyBlue : #e1eefb;
+$darkPurple : #15266e;
+$green : #40a83d;
+$light-blue : #44afec;
+$dark-grey : #171616;
+$red : #e4002d;
+
+.purple {
+	color:$purple;
+}
+.blue {
+	color:$blue;
+}
+.white {
+	color:$white;
+}
+.black {
+	color:$black;
+}
+.yellow {
+	color:$yellow;
+}
+.orange {
+	color:$orange;
+}
+.babyBlue {
+	color:$babyBlue;
+}
+.darkPurple{
+	color:$darkPurple;
+}
+.green{
+	color:$green;
+}
+.light-blue{
+	color:$light-blue;
+}
+
+.purple-bg{
+	background-color:$purple;
+}
+.blue-bg{
+	background-color:$blue;
+}
+.light-blue-bg{
+	background-color: $light-blue;
+}
+.white-bg{
+	background-color:$white;
+}
+.black-bg{
+	background-color:$black;
+}
+.yellow-bg{
+	background-color:$yellow;
+}

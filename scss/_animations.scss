@@ -1,0 +1,121 @@
+@mixin vector-image($img, $fallback, $position: center center, $size: auto, $repeat: no-repeat) {
+	background: transparent url($fallback) $position no-repeat;
+	background-image: -webkit-linear-gradient(transparent, transparent), url($img);
+	background-image: linear-gradient(transparent, transparent), url($img);
+	background-size: $size;
+	background-repeat: $repeat;
+}
+
+
+@mixin ease-out-in($time){
+	-webkit-transition: all $time cubic-bezier(0.680, 0, 0.265, 1); /* older webkit */
+	-webkit-transition: all $time cubic-bezier(0.680, -0.2, 0.265, 1.550); 
+	-moz-transition: all $time cubic-bezier(0.680, -0.2, 0.265, 1.550); 
+	-o-transition: all $time cubic-bezier(0.680, -0.2, 0.265, 1.550); 
+	transition: all $time cubic-bezier(0.680, -0.2, 0.265, 1.550); /* easeInOutBack */
+
+	-webkit-transition-timing-function: cubic-bezier(0.680, 0, 0.265, 1); /* older webkit */
+	-webkit-transition-timing-function: cubic-bezier(0.680, -0.2, 0.265, 1.550); 
+	-moz-transition-timing-function: cubic-bezier(0.680, -0.2, 0.265, 1.550); 
+	-o-transition-timing-function: cubic-bezier(0.680, -0.2, 0.265, 1.550); 
+	transition-timing-function: cubic-bezier(0.680, -0.2, 0.265, 1.550); /* easeInOutBack */  
+}
+
+@mixin ease-out-in-val($value, $time){
+	-webkit-transition: $value $time cubic-bezier(0.680, 0, 0.265, 1); /* older webkit */
+	-webkit-transition: $value $time cubic-bezier(0.680, -0.550, 0.265, 1.550); 
+	-moz-transition: $value $time cubic-bezier(0.680, -0.550, 0.265, 1.550); 
+	-o-transition: $value $time cubic-bezier(0.680, -0.550, 0.265, 1.550); 
+	transition: $value $time cubic-bezier(0.680, -0.550, 0.265, 1.550); /* easeInOutBack */
+
+	-webkit-transition-timing-function: cubic-bezier(0.680, 0, 0.265, 1); /* older webkit */
+	-webkit-transition-timing-function: cubic-bezier(0.680, -0.550, 0.265, 1.550); 
+	-moz-transition-timing-function: cubic-bezier(0.680, -0.550, 0.265, 1.550); 
+	-o-transition-timing-function: cubic-bezier(0.680, -0.550, 0.265, 1.550); 
+	transition-timing-function: cubic-bezier(0.680, -0.550, 0.265, 1.550); /* easeInOutBack */  
+}
+
+
+@mixin animate-pod($time, $delay){
+
+	-webkit-transition: all $time ease-in-out $delay;
+	-moz-transition: all $time ease-in-out $delay;
+	-o-transition: all $time ease-in-out $delay;
+	transition: all $time ease-in-out $delay;
+
+	-webkit-animation-delay: $delay; /* Chrome, Safari, Opera */
+	animation-delay: $delay;		
+}
+
+@mixin rounded($radius: 0.5em) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  border-radius: $radius;
+}
+
+@mixin opacity($opacity, $ie){
+  opacity: $opacity;
+  filter: alpha(opacity=$ie); /* For IE8 and earlier */
+}
+
+@mixin animate-all($time){
+	-webkit-transition: all $time ease-in-out;
+	-moz-transition: all $time ease-in-out;
+	-o-transition: all $time ease-in-out;
+	transition: all $time ease-in-out;
+}
+
+@mixin animate-opacity($time){
+	-webkit-transition: opacity $time ease-in-out;
+	-moz-transition: opacity $time ease-in-out;
+	-o-transition: opacity $time ease-in-out;
+	transition: opacity $time ease-in-out;
+}
+
+@mixin animate-linear($feature, $time){
+	-webkit-transition: $feature $time linear;
+	-moz-transition: $feature $time linear;
+	-ms-transition: $feature $time linear;
+	-o-transition: $feature $time linear;
+	transition: $feature $time linear;
+}
+
+@mixin ease-out-back-in(){
+-webkit-transition: all 666ms cubic-bezier(0.680, 0, 0.265, 1); /* older webkit */
+-webkit-transition: all 666ms cubic-bezier(0.680, -0.550, 0.265, 1.550); 
+   -moz-transition: all 666ms cubic-bezier(0.680, -0.550, 0.265, 1.550); 
+	 -o-transition: all 666ms cubic-bezier(0.680, -0.550, 0.265, 1.550); 
+		transition: all 666ms cubic-bezier(0.680, -0.550, 0.265, 1.550); /* easeInOutBack */
+
+-webkit-transition-timing-function: cubic-bezier(0.680, 0, 0.265, 1); /* older webkit */
+-webkit-transition-timing-function: cubic-bezier(0.680, -0.550, 0.265, 1.550); 
+   -moz-transition-timing-function: cubic-bezier(0.680, -0.550, 0.265, 1.550); 
+	 -o-transition-timing-function: cubic-bezier(0.680, -0.550, 0.265, 1.550); 
+		transition-timing-function: cubic-bezier(0.680, -0.550, 0.265, 1.550); /* easeInOutBack */
+}
+
+.arrow {
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	margin-left:-15px;
+	width: 30px;
+	height: 30px;
+	background-size: contain;
+	z-index:99999;
+	display:none;
+	svg{
+		width:100%;
+	}
+}
+@include keyframes(bounce) {
+	0%, 20%, 50%, 80%, 100% {
+    @include transform(translateY(0));
+  }
+	40% {
+    @include transform(translateY(-15px));
+  }
+	60% {
+    @include transform(translateY(-5px));
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Daniel Jenkins",
+  "version": "1.0.0",
+  "authors": [
+    "Dan Jenkins <dan@Daniel-jenkins.com>"
+  ],
+  "description": "laravel application",
+  "main": "../../../index.php",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "RNLI",
+    "drupal"
+  ],
+  "license": "MIT",
+  "homepage": "swim-safe.local",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass-official": "~3.3.4"
+  }
+}
