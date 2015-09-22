@@ -2,6 +2,11 @@
 
 	&.full{
 		height:100%;
+		padding:0;
+		position:relative;
+		.cover-image{
+			width:100%;
+		}
 	}
 	&.copy{
 		padding-top:50px;

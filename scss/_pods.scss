@@ -1,7 +1,7 @@
 .pod{
-
+	@include animate-all(0.22s);
 	&.two-height{
-		height:500px;		
+		height:auto;		
 	}
 	&.one-height{
 		height:250px;
@@ -9,6 +9,20 @@
 	}
 	&.rectangle{
 		height:350px;
+	}
+	&.opaque{
+		background:$black;
+		@include opacity(.75,75);
+	}
+	&.bottom{
+		position:absolute;
+		bottom:0;
+		&.right{
+			right:0;
+		}
+		&.left{
+			left:0;
+		}
 	}
 	a{
 		display: table;
@@ -21,5 +35,8 @@
 		vertical-align: middle;
 		text-align: center;
 		display: table-cell;
+		h3{
+			font-size:18px;
+		}
 	}
 }

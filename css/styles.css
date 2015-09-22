@@ -7270,20 +7270,54 @@ p {
   font-size: 14px;
 }
 
+.footer {
+  height: 55px;
+}
+
 .section.full {
   height: 100%;
+  padding: 0;
+  position: relative;
+}
+.section.full .cover-image {
+  width: 100%;
 }
 .section.copy {
   padding-top: 50px;
   padding-bottom: 50px;
 }
 
+.pod {
+  -webkit-transition: all 0.22s ease-in-out;
+  -moz-transition: all 0.22s ease-in-out;
+  -o-transition: all 0.22s ease-in-out;
+  transition: all 0.22s ease-in-out;
+}
 .pod.two-height {
-  height: 500px;
+  height: auto;
 }
 .pod.one-height {
   height: 250px;
   font-size: 18px;
+}
+.pod.rectangle {
+  height: 350px;
+}
+.pod.opaque {
+  background: #000;
+  opacity: 0.75;
+  filter: alpha(opacity=75);
+  /* For IE8 and earlier */
+}
+.pod.bottom {
+  position: absolute;
+  bottom: 0;
+}
+.pod.bottom.right {
+  right: 0;
+}
+.pod.bottom.left {
+  left: 0;
 }
 .pod a {
   display: table;
@@ -7296,6 +7330,13 @@ p {
   vertical-align: middle;
   text-align: center;
   display: table-cell;
+}
+.pod .front h3 {
+  font-size: 18px;
+}
+
+.black-overlay {
+  background: url(/images/overlay/black-bg.png);
 }
 
 /*# sourceMappingURL=styles.css.map */
