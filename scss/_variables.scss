@@ -1,56 +1,36 @@
 // Put Bootstrap override variables here, and any custom variables required.
-$purple : #223688;
-$blue : #009dd8;
 $white : #fff;
 $black : #000;
-$yellow : #fedb31;
-$orange : #e94e1b;
-$babyBlue : #e1eefb;
-$darkPurple : #15266e;
-$green : #40a83d;
-$light-blue : #44afec;
-$dark-grey : #171616;
-$red : #e4002d;
+$maroon : #923843;
+$graphite : #707070;
+$light-grey: #ededed;
+$mid-grey: #dfdfdf;
+$orange: #cb8b2d;
+$navy: #45214a;
 
-.purple {
-	color:$purple;
-}
-.blue {
-	color:$blue;
-}
 .white {
 	color:$white;
 }
 .black {
 	color:$black;
 }
-.yellow {
-	color:$yellow;
+.maroon{
+	color:$maroon
 }
-.orange {
-	color:$orange;
+.graphite{
+	color:$graphite
 }
-.babyBlue {
-	color:$babyBlue;
+.mid-grey{
+	color:$mid-grey
 }
-.darkPurple{
-	color:$darkPurple;
+.light-grey{
+	color:$light-grey
 }
-.green{
-	color:$green;
+.orange{
+	color:$orange
 }
-.light-blue{
-	color:$light-blue;
-}
-
-.purple-bg{
-	background-color:$purple;
-}
-.blue-bg{
-	background-color:$blue;
-}
-.light-blue-bg{
-	background-color: $light-blue;
+.navy{
+	color:$navy
 }
 .white-bg{
 	background-color:$white;
@@ -58,6 +38,21 @@ $red : #e4002d;
 .black-bg{
 	background-color:$black;
 }
-.yellow-bg{
-	background-color:$yellow;
+.maroon-bg{
+	background-color:$maroon
+}
+.graphite-bg{
+	background-color:$graphite
+}
+.mid-grey-bg{
+	background-color:$mid-grey
+}
+.light-grey-bg{
+	background-color:$light-grey
+}
+.orange-bg{
+	background-color:$orange
+}
+.navy-bg{
+	background-color:$navy
 }

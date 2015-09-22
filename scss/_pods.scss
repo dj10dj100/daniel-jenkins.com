@@ -1,0 +1,25 @@
+.pod{
+
+	&.two-height{
+		height:500px;		
+	}
+	&.one-height{
+		height:250px;
+		font-size:18px;
+	}
+	&.rectangle{
+		height:350px;
+	}
+	a{
+		display: table;
+		height:100%;
+		width:100%;
+		text-decoration:none;
+	}	
+	.front{
+		height:auto;
+		vertical-align: middle;
+		text-align: center;
+		display: table-cell;
+	}
+}

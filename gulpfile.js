@@ -36,7 +36,7 @@ console.log(config.sassPath + '/styles.scss');
 			compass : true,
             loadPath: [
 				config.sassPath,
-                //'./bower_components/bootstrap-sass-official/assets/stylesheets/',
+               //'./bower_components/bootstrap-sass-official/assets/stylesheets/',
                 //config.bowerDir + '/fontawesome/scss',
             ]
         }).on("error", notify.onError(function (error) {
